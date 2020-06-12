@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/ibDog"
+        android:src="@drawable/dog"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibCat"
+        android:src="@drawable/cat"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@id/ibDog"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibMouse"
+        android:src="@drawable/mouse"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@id/ibCat"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibHorse"
+        android:src="@drawable/horse"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@id/ibMouse"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_margin="10dp"/>
+
+
+    <ImageButton
+        android:id="@+id/ibCow"
+        android:src="@drawable/cow"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibSheep"
+        android:src="@drawable/sheep"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@id/ibCow"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibChicken"
+        android:src="@drawable/chicken"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@id/ibSheep"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibPig"
+        android:src="@drawable/pig"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@id/ibChicken"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibLion"
+        android:src="@drawable/lion"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/ibDog"
+        app:layout_constraintRight_toLeftOf="@id/ibCow"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibElephant"
+        android:src="@drawable/elephant"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@id/ibLion"
+        app:layout_constraintLeft_toRightOf="@id/ibCat"
+        app:layout_constraintRight_toLeftOf="@id/ibSheep"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibChimpanzee"
+        android:src="@drawable/chimpanzee"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@id/ibElephant"
+        app:layout_constraintLeft_toRightOf="@id/ibMouse"
+        app:layout_constraintRight_toLeftOf="@id/ibChicken"
+        android:layout_margin="10dp"/>
+
+    <ImageButton
+        android:id="@+id/ibKookaburra"
+        android:src="@drawable/kookaburra"
+        android:scaleType="centerCrop"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:layout_constraintTop_toBottomOf="@id/ibChimpanzee"
+        app:layout_constraintLeft_toRightOf="@id/ibHorse"
+        app:layout_constraintRight_toLeftOf="@id/ibPig"
+        android:layout_margin="10dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
